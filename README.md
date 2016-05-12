@@ -1,0 +1,1 @@
+# ngcordova-wrapper-nativestorage
