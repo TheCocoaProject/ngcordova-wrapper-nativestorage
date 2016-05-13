@@ -14,7 +14,7 @@ Include `ngcordova-wrapper-nativestorage.js` after the rest of your Ionic and An
 <script src="lib/ngcordova-wrapper-nativestorage/dist/ngcordova-wrapper-nativestorage.js"></script>
 ```
 
-Add `ngCordovaNativeStorage` as a module dependency of your app.
+Add `ngCordova.plugins.nativeStorage` as a module dependency of your app.
 ```javascript
 app.controller('myCtrl', function ($ionicPlatform, $scope, $cordovaNativeStorage, $log) {
     $ionicPlatform.ready(function () {

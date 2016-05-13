@@ -1,4 +1,4 @@
-angular.module("ngCordovaNativeStorage", [])
+angular.module("ngCordova.plugins.nativeStorage", [])
 .factory('$cordovaNativeStorage', ['$window', '$q', '$log', function ($window, $q, $log) {
 
   var inBrowser = false;
