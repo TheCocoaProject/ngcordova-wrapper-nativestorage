@@ -11,7 +11,7 @@ cordova plugin add cordova-plugin-nativestorage
 Include `ngcordova-wrapper-nativestorage.js` after the rest of your Ionic and Angular includes:
 
 ```javascript
-<script src="lib/ngcordova-wrapper-nativestorage/dist/ngcordova-wrapper-nativestorage.js"></script>
+<script src="lib/ngcordova-wrapper-nativestorage/dist/ngcordova-wrapper-nativestorage.min.js"></script>
 ```
 
 Add `ngCordova.plugins.nativeStorage` as a module dependency of your app.
