@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "description": "AngelarJS (ngCordova) wrapper for NativeStorage",
     "author": "Gilles Callebaut <gilles.callebaut.cs@gmail.com>",
-    "main": "src/ngcordova-wrapper-nativestorage.js"
+    "main": "src/ngcordova-wrapper-nativestorage.js",
     "keywords": [
         "cordova",
         "device",
