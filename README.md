@@ -1,5 +1,7 @@
 # ngcordova-wrapper-nativestorage
 
+REMARK: Support up to v2.0.1 (´clear´ function will be implemented when I've the time -- v2.0.2)
+
 ##Install
 
 ```sh
