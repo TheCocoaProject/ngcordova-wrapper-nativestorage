@@ -1,5 +1,7 @@
 # ngcordova-wrapper-nativestorage
 
+***UPDATE***: The plugin can be found in Ionic 2 (http://ionicframework.com/docs/v2/native/nativestorage/).
+
 REMARK: Support up to v2.0.1 (´clear´ function will be implemented when I've the time -- v2.0.2)
 
 ##Install
