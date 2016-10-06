@@ -78,6 +78,24 @@ angular.module("ngCordova.plugins.nativeStorage", [])
         NativeStorage.getItem(reference, function(result) {q.resolve(result);}, function(error) {q.reject(error);});
       }
       return q.promise;
-    }
+    },
+     clear: function() {
+                var q = $q.defer();
+                if (isInBrowser()) {
+                    clearFromLocalStorage(function(result) {
+                        q.resolve(result);
+                    }, function(error) {
+                        q.reject(error);
+                    });
+                } else {
+                    NativeStorage.clear(function(result) {
+                        q.resolve(result);
+                    }, function(error) {
+                        q.reject(error);
+                    });
+                }
+                return q.promise;
+
+            }
   };
 }])
